@@ -17,4 +17,8 @@ public class Baju {
         hasil=jumlah*harga;
         return hasil;
                 }
+    
+    void cetakHasil(){
+        System.out.println("Hasilnya adalah: "+hitungHasil());
+    }
 }

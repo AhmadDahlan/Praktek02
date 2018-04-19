@@ -9,7 +9,7 @@ public class BajuAksi {
         
         b1.pelindungtubuh();
         System.out.println("Hasil baju = "+b1.hitungHasil() );
-
+        b1.cetakHasil();
     }
     
 }
