@@ -10,6 +10,12 @@ public class BajuAksi {
         b1.pelindungtubuh();
         System.out.println("Hasil baju = "+b1.hitungHasil() );
         b1.cetakHasil();
+        
+        Baju b2 = new Baju();
+        b2.pelindungtubuh();
+        
+        Baju b3 = new Baju(50,40);
+        b3.pelindungtubuh();
     }
     
 }

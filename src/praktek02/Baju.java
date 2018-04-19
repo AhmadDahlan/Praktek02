@@ -8,6 +8,11 @@ public class Baju {
         jumlah=3;
         harga=50000;
     }
+
+    public Baju(double jumlah, double harga) {
+        this.jumlah = jumlah;
+        this.harga = harga;
+    }
     
     void pelindungtubuh(){
         System.out.println("==================");
