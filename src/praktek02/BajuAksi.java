@@ -6,6 +6,8 @@ public class BajuAksi {
         b1.merk = "Nevada";
         b1.jumlah = 5;
         b1.harga = 50000;
+        
+        b1.pelindungtubuh();
 
     }
     
