@@ -2,11 +2,11 @@ package praktek02;
 
 public class BajuAksi {
     public static void main(String[] args) {
-        Baju Jalan = new Baju();
-        Jalan.merk = Nevada;
-        Jalan.warna = Merah;
-        Jalan.ukuran = L;
-        Jalan.bahan = Katun;
-        Jalan.corak = Polos;
+        Baju b1 = new Baju();
+        b1.merk = "Nevada";
+        b1.jumlah = 5;
+        b1.harga = 50000;
+
     }
+    
 }
