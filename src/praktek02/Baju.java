@@ -3,6 +3,11 @@ public class Baju {
     String merk;
     double jumlah;
     double harga;
+
+    public Baju() {
+        jumlah=3;
+        harga=50000;
+    }
     
     void pelindungtubuh(){
         System.out.println("==================");
