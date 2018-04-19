@@ -8,6 +8,7 @@ public class BajuAksi {
         b1.harga = 50000;
         
         b1.pelindungtubuh();
+        System.out.println("Hasil baju = "+b1.hitungHasil() );
 
     }
     

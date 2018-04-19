@@ -11,4 +11,10 @@ public class Baju {
         System.out.println("harga : "+harga);
         System.out.println("==================");
     }
-    }
+    
+    double hitungHasil(){
+        double hasil;
+        hasil=jumlah*harga;
+        return hasil;
+                }
+}
